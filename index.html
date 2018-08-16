@@ -9,13 +9,116 @@
     <style href="styles.css"></style>
 </head>
 <body>
-<div class="container">
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <h1>My First Bootstrap Project</h1>
+    <div class="container-fluid">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <h4>Pet Preferance</h4>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="inlineCheckbox1">Cats</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="inlineCheckbox2">Dogs</label>
+        </div>
+        <h4>Pizza Preferance</h4>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Cheese Pizza
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Vegetable Pizza
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+                Meat Pizza
+            </label>
+        </div>
+        <div>           
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+<hr>
+    <div class="row">
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Bo Foster</h3>
+                    <p class="card-text">Bo lives in Pensacola and loves looking at nice ladies, drinking cold yella's, and watching Auburn Football. I've known Bo for 23 years, and we try to catch up when we can.</p>
+                    <a href="#" class="btn btn-primary">Message Bo</a>
+                </div>
             </div>
-            <div class="col-4"></div>
+        </div>
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Rod Foster</h3>
+                    <p class="card-text">Rod Foster(aka Soft Hands), is a legend. He is in the Supper Club hall of fame. He posseses the rare ablity to shoot laser beams from his eyes that seduces women.</p>
+                    <a href="#" class="btn btn-primary">Message Rod</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Fain Holman</h3>
+                    <p class="card-text">Fain Holman(aka Helmet), just wants a hug. He is a master of Real Estate on the Gulf Coast, loves whiskey, rock and roll women, and dive bars. Give Fain a hig if you meet him.</p>
+                    <a href="#" class="btn btn-primary">Message Fain</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Alan Olson</h3>
+                    <p class="card-text">Alan Olson lives in Gulf Shores where he dominates the hotel market. He loves music and also has a passion for Auburn football and live music.</p>
+                    <a href="#" class="btn btn-primary">Message Alan</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">John Lamberth</h3>
+                    <p class="card-text">John Lamberth teaches high school Spanish, plays tennis, and was recently married this past April. He is a damn good cook also!</p>
+                    <a href="#" class="btn btn-primary">Message John</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Joe Griffin</h3>
+                    <p class="card-text">Joe Griffin lives in Orange Beach and is a successful Podiatrist. He has a great wife, two little girls, and little boy.</p>
+                    <a href="#" class="btn btn-primary">Message Joe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
+</form>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <h1>My First Bootstrap Project</h1>
+        </div>
+        <div class="col"></div>
         </div>
         <div class="row justify-content-start">
             <div class="col-4">
@@ -29,10 +132,10 @@
         </div>
         <div class="row justify-content-end">
             <div class="col-4">
-                <h1>Phish</h1>
+            <h1>Phish</h1>
             </div>
         </div>
-</div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
